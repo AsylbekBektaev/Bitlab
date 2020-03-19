@@ -25,29 +25,11 @@
 
 
 <div>
-	BLOK-0
-	<h1><?php echo $news[$i][0]['title']?></h1>
-	<span><?php echo $news[$i][0]['content']?></span>
-	<span><?php echo $news[$i][0]['author']?></span>
+	<h1><?php echo $news[$i]['title']?></h1>
+	<span><?php echo $news[$i]['content']?></span>
+	<span><?php echo $news[$i]['author']?></span>
 </div>
-<div>
-	BLOK-1
-	<h1><?php echo $news[$i][1]['title']?></h1>
-	<span><?php echo $news[$i][1]['content']?></span>
-	<span><?php echo $news[$i][1]['author']?></span>
-</div>
-<div>
-	BLOK-2
-	<h1><?php echo $news[$i][2]['title']?></h1>
-	<span><?php echo $news[$i][2]['content']?></span>
-	<span><?php echo $news[$i][2]['author']?></span>
-</div>
-<div>
-	BLOK-3
-	<h1><?php echo $news[$i][3]['title']?></h1>
-	<span><?php echo $news[$i][3]['content']?></span>
-	<span><?php echo $news[$i][3]['author']?></span>
-</div>
+
 	
 	
 <?php
