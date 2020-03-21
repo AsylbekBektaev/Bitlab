@@ -16,7 +16,6 @@ function getNEWS(){
 	global $MAS;
 	for($i=0;$i<count($MAS);$i++){
 ?>
-
 	<div >
 		<h2><?php echo $MAS[$i]['TITLE']?></h2>
 		<div class="text-primary"><?php echo $MAS[$i]['CONTENT']?></div>
