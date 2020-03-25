@@ -1,0 +1,27 @@
+.table{
+	width:500px; 
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+.input{
+	width:250px;
+	border:solid 1px grey;
+	border-radius:5px;
+	padding:6px; 
+}
+.sel{
+	width:265px;
+	border:solid 1px grey;
+	border-radius:5px;
+	padding:6px; 
+}
+.but{
+	margin-left:284px;
+	padding:6px;
+	background-color:green;
+	color:white; 
+	border:solid 1px green;
+	border-radius:5px; 
+}
