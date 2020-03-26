@@ -1,0 +1,521 @@
+body{
+	font-family:Arial;
+	margin:0px;
+	padding:0px;
+	background:#edeef0;
+}
+.Nazhalo{
+	padding:3px;
+	background-color:#4a76a8;
+	position:fixed;
+	top:0px;
+	overflow:auto;
+	width:100%;
+
+}
+.Nazh2{
+display:flex;
+margin-left:120px; 
+font-weight:bold;
+color:white;
+}
+.vk{
+	margin-right:135px;
+	font-size:28px;
+	margin-top:5px;
+}
+.form{
+	padding:9px;
+
+}
+.input22{
+	padding:6px;
+	border-radius:20px;
+	border:solid  1px;
+	color:grey;
+	background-color:#224b7a;
+}
+
+/*VVVVVVVVVVVVVVKKKKKKKKKKKKKKK 11111111 NAZHALO*/
+
+.conteiner{
+	margin:0 40px 0 40px;
+	display:flex;
+	background:#cccccc;
+	background:#edeef0;
+}
+.col1{
+	margin:78px 0px 0px 40px;
+	position:fixed;
+	float:top;
+	top:10px;
+	overflow:auto;
+	
+
+}
+.ul{
+	text-decoration:none;
+	list-style-type:none;
+	
+}
+.li{
+	padding-bottom:10px;
+}
+.a1{ 
+	text-decoration:none;
+    list-style-type:none; 
+    color:#4a76a8;
+    padding-bottom:10px;
+}
+
+
+.col2{
+	margin-top: 89px;
+	margin-left: 250px;
+		width:300px;
+		height:550px;
+}
+.bb1{
+	background:#ffffff;
+	height:300px;
+	width:260px;
+}
+.bb1-conteiner{
+	margin:15px;
+	height:265px;
+}
+.i{
+	padding-top:15px;
+}
+.i11{
+
+	width:228px;
+	height:218px;
+
+
+
+}
+.red{
+	background-color:#cccccc;
+	border:solid #cccccc 1px;
+	text-align:center;
+	border-radius:5px;
+	margin-top:9px;
+	padding-top:7px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding:7px;
+
+}
+
+.bb2{
+	margin-top:15px;
+	background:#ffffff; 
+	width:260px;
+
+}
+
+.DDD{
+	margin-top: 10px;
+	margin-left:10px ;
+	padding-top:10px;
+	font-size:14px;
+}
+.r1{
+	display:flex;
+}
+.d1{
+	margin:12px;
+}
+.ii11{ 
+	width:60px; 
+	height: 60px;
+	border-radius:100%;
+}
+.imd1{
+    text-align:center;
+}
+
+
+
+.col3{
+	margin-top: 100px;
+	margin-left:40px;
+	margin-right:50px;
+
+}
+.bb3{
+	
+	background:#ffffff;
+}
+.online{
+	margin-left:550px;
+	display:inline-block;
+	margin-left:0px;
+	padding-left:400px;
+	color:grey;
+}
+.Ilyas{
+	display:inline-block;
+	font-size:23px;
+}
+.io{
+	display:inline-block;
+	margin-top:20px;
+	margin-left:13px;
+}
+.life{
+	font-size:18px;
+	padding-left:13px;
+	margin-top:7px;
+	padding-bottom:10px;
+	border-bottom:solid #cccccc 1px;
+	border:100%;
+}
+.ttt1{
+	margin-left:13px;
+	width:410px;
+	margin-top:18px;
+	margin-bottom:18px;
+
+}
+.td{
+	padding-bottom:6px;
+}
+.rrr3{
+	display:flex;
+	border-top:#cccccc solid 1px;
+	padding:20px;
+}
+.c1{
+	justify-content:space-between;
+	margin-left: 25px;
+	text-align:center;
+
+
+}
+
+
+.bb4{ 
+	
+	margin-top:15px; 
+	background:#ffffff;
+}
+.mf{
+	padding-left:13px;
+	padding-top:18px; 
+}
+.mf-1{
+	display:flex;
+
+}
+.f{
+	margin:15px; 
+	margin-right:15px;
+	margin-left:20px;
+}
+.f1{
+ width:140px;
+ height:150px; 
+ }
+ 
+
+
+.bb5{ 
+	
+	margin-top: 25px;
+	background:#ffffff;
+	margin-bottom:35px;
+
+}
+.illi{}
+.f91{
+	width:60px;
+	height:60px;
+	border-radius:100%;
+	margin-left:15px;
+	margin-top:15px;
+	display: flex;
+}
+
+
+.zhuan{
+ margin-bottom:10px;
+}
+.mes{
+ font-size:13px;
+ color:grey;
+}
+.ob1{
+	display:flex;
+}
+.ob{
+margin-top:25px;
+margin-left:20px;
+
+}
+.Lorem{
+	text-align:justify;
+	padding: 18px;
+	padding-bottom:10px;
+}
+/* VVVVVVVVVVVVKKKKKKKKKKKKK 111111111111111 KONEC*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   VVVVVVVKKKKKKKKKK  222222222222  NAZHALO */
+
+.conteiner{
+	margin-left:40px;
+	margin-right:40px;
+	display:flex;
+	background:#cccccc;
+	background:#edeef0;
+}
+.col1{
+	margin-top: 78px;
+	margin-left:40px;
+	position:fixed;
+	float:top;
+	top:10px;
+	overflow:auto;
+
+}
+.ul{
+	text-decoration:none;
+	list-style-type:none;
+	
+}
+.li{
+	padding-bottom:10px;
+}
+.a1{ 
+	text-decoration:none;
+    list-style-type:none; 
+    color:#4a76a8;
+    padding-bottom:10px;
+}
+
+
+.col22{
+	
+	margin-top: 95px;
+	margin-left: 250px;
+		width:750px;
+		height:550px;
+}
+.col2__blok1{
+	margin-top:4px;
+	background-color:#ffffff;
+}
+.linia{
+	display:inline-flex;
+}
+.C2l1{
+ margin-right:0px;
+ padding:15px 0px 13px 13px;
+ width:150px;
+ text-align:center;
+}
+.C2l2{
+	margin-left:0px;
+	padding:15px 13px 13px 0px;
+	font-size:14px;
+	color:grey;
+}
+
+.col2__button{
+	padding:6px 22px 6px 22px;
+	background-color:#4a76a8;
+	border:solid #4a76a8 1px;
+	border-radius:5px;
+	margin:9px 15px 9px 110px;
+	text-align:center;
+	color:white;
+
+
+}
+
+.col2__blok2{
+	background-color:#ffffff;
+	border-top:solid #cccccc 1px;
+}
+.col2__blok2__input{
+border:0px;
+width:550px;
+
+padding:15px 10px 15px 10px;
+margin-right:-6px;
+background-color:#ffffff;
+
+}
+.col2__blok3{
+border-top:solid #cccccc 1px;
+display:inline-flex;
+padding:18px;
+margin:0px 0px 0px 0px;
+width:94.6%;
+background-color:#ffffff;
+}
+.ava{
+	width:90px;
+	height:90px;
+	border-radius:100%;
+	margin-left:13px;
+}
+.kolonna{
+	
+	width:94%;
+	margin-left:12px;
+	padding:10px 0px 0px 10px;
+}
+.Eldar{
+	margin-bottom:5px;
+	color:#4a76a8;
+	font-weight:bold;
+	font-size:20px;
+	width:150px;
+	padding-right:0px;
+	text-align:justify;
+
+}
+.Muit{
+	margin-bottom:5px;
+	font-size:15px;
+	color:#999999;
+
+}
+.Napsob{
+	color:#4a76a8;
+	font-size:13px;
+}
+.mnogotoshie{
+	
+	margin-left:320px;
+	color:#666666;
+	padding-top:0px;
+	font-size:27px;
+}
+
+
+
+.col33{
+	margin-top: 84px;
+	margin-left:40px;
+	margin-right:40px;
+	
+	width:310px;
+}
+.col3__blok1{
+	
+	background-color:#ffffff;
+}
+.li1{
+	padding-bottom:13px;
+	padding-top:20px;
+}
+.li1:hover{
+	background-color:#d9d9d9;
+	color:black;
+	font-weight:bold;
+	transition:all .15s;
+}
+.a2:hover{
+	padding-bottom:0px;
+	background-color:#d9d9d9;
+	color:black;
+	font-weight:bold;
+	transition:all .15s;
+	margin-left:8px;
+	font-size:18px;
+}
+.sel:hover{
+	padding-left:0px;
+	padding-bottom:0px;
+	background-color:#d9d9d9;
+	color:black;
+	font-weight:bold;
+	transition:all .15s;
+	margin-left:8px;
+	font-size:18px;
+}
+.dvli:hover{
+	padding-left:0px;
+	padding-bottom:0px;
+	background-color:#d9d9d9;
+	color:black;
+	font-weight:bold;
+	transition:all .15s;
+	
+}
+.a2{
+	text-decoration:none;
+    list-style-type:none; 
+    color:#4a76a8;
+    padding-bottom:18px;
+}
+.sel{
+	border:0px;
+	padding:2px;
+	padding-left: 0px;
+	margin-left:-4px;
+	font-size:15px;
+	color:#4a76a8;
+	margin-top:-1px;
+}
+
+
+
+.col3__blok2{
+	margin-top:10px;
+	padding-bottom:7px;
+	background-color:#ffffff;
+}
+.VD{
+	padding:13px 0px 13px 13px;
+	color:#4a76a8;
+}
+.ava2{
+ width:60px;
+ height:60px;
+ border-radius:100%;
+ padding-left:13px;
+
+}
+.kol{
+	display:inline-flex;
+	margin-top:10px;
+	
+	margin-left:10px;
+}
+.kolonna2{
+	padding-left:13px;
+	padding-top:4px;
+
+}
+.Eldar1{
+	margin-bottom:4px;
+	color:#4a76a8;
+
+}
+.Muit1{
+	font-size:13px;
+   margin-bottom:4px;
+   color:#999999;
+}
+.Napsob1{
+	font-size:12px;
+	color:#4a76a8;
+
+}
+/*VVVVVVVVVVVVKKKKKKKKK222222  KONEC*/

@@ -1,0 +1,71 @@
+
+//login form nashalo
+let array = [
+	{"LOGIN":"aaa","PASSWORD":"aaa"},
+	{"LOGIN":"bbb","PASSWORD":"bbb"},
+	{"LOGIN":"ccc","PASSWORD":"ccc"}
+];
+let bul=false;
+
+function User() {
+	let logo=document.getElementById("login").value;
+	let paso=document.getElementById("password").value;
+	for(let i=0;i<array.length;i++){
+		if(logo==array[i].LOGIN && paso==array[i].PASSWORD){
+			bul=true;
+			location.assign("web.html");
+		}
+	}
+	if(bul==false){
+		setTimeout(DO,100);
+	}
+}
+function DO(){
+	document.getElementById("error_lab").innerHTML='<h2>Invalid<br>email or password</h2>';
+}
+//login form konec
+
+
+
+
+
+
+
+
+
+
+
+
+// Blog nashalo
+let array2=[
+	{TITLE:"POST #1",CONTENT:"ALMATY CITY",AUTHOR:"ASEKE"},
+	{TITLE:"POST #2",CONTENT:"ASTANA CITY",AUTHOR:"BAKE"}
+];
+	
+	JJJ();
+
+function JJJ(){
+	let res="";	
+	for(let i=0;i<array2.length;i++){
+		res+='<div id="blog" class="border border-dark w-100 h-25 rounded bg-white"><div id="blog-1" class="count-border  h-75 "><label id="blog-Title" class="blog-Title">'+array2[i].TITLE+'</label><br><div id="blog-Content" class="blog-Content">'+array2[i].CONTENT+'</div><button id="blog-button" class=" ml-4 p-1 bg-primary text-white border border-primary rounded ">BUTTON</button></div><div id="blog-2" class="blog-2"><label class="m-0 font-weight-light bg-white w-100 h-100 rounded pt-2 pb-2 pl-4 pr-0" id="blog-Author">'+array2[i].AUTHOR+'</label></div></div><br> ';
+	}
+	document.getElementById("co1").innerHTML=res;
+}
+
+
+function PPP(){
+	let tit=document.getElementById("title").value;
+	let con=document.getElementById("content").value;
+	let aut=document.getElementById("author").value;
+
+	array2.push({TITLE:tit,CONTENT:con,AUTHOR:aut});
+	JJJ();
+}
+// Blog konec
+
+
+
+
+
+
+

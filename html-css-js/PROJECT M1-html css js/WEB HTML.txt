@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>PROJECT BITLAB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+	<script type="text/javascript" src="js/project.js"></script>
+</head>
+
+<body>
+	<!-- NAVIGATION -->
+<div class="container-fluid">
+	<div class="nav">
+		<div class="nav_LOGO">
+			<div><a href="web.html" class="LOGO">BITLAB</a></div>
+			<div><a href="web.html" class="LOGO">ACADEMY</a></div>
+		</div>
+		<div class="nav_LINK">
+			<a href="#" class="link-1">LINK-1</a>
+			<a href="web.html"  class="link">WEB</a>
+			<a href="Blog.html"  class="link">BLOG</a>
+			<a href="#" class="link">LINK-4</a>
+			<a href="#" class="link">LINK-5</a>
+			<a href="#" class="link">LINK-6</a>
+		</div>
+	</div>
+</div>
+	<!-- BLOCK-1 -->
+	<div class="BLOCK-1">
+		<div class="lorem">Lorem ipsum dolor sit amet,consectetur<br>adipisicing elit, set do eiusmod</div>
+		<span class="span_input"><input class="input" type="text" placeholder="Enter your email..."><button class="input-button">Sign in!</button></span>
+	</div>
+
+<!-- BLOCK-2 -->
+
+<div class="BLOCK-2">
+		<div class="BLOCK-2_LOGO">Our Products</div>
+		<div class="BLOCK-2_blocks">
+			<div class="blocks">
+					<img class="img-700x400" src="img/700x400.jpg">
+					<div class="project_one">PROJECT ONE</div>
+					<label class="project_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloribus ducimus, vel a aut quod ipsa, voluptas debitis cum quis quam numquam.</label>
+			</div>
+			<div class="blocks">
+					<img class="img-700x400" src="img/700x400.jpg">
+					<div class="project_one">PROJECT ONE</div>
+					<label class="project_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloribus ducimus, vel a aut quod ipsa, voluptas debitis cum quis quam numquam.</label>
+			</div>
+			<div class="blocks">
+					<img class="img-700x400" src="img/700x400.jpg">
+					<div class="project_one">PROJECT ONE</div>
+					<label class="project_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloribus ducimus, vel a aut quod ipsa, voluptas debitis cum quis quam numquam.</label>
+			</div>
+			
+		</div>
+</div>
+<!-- BLOCK-3 -->
+<div class="BLOCK-3">
+		<div class="lor"><label class="lor-lorem">Lorem</label><p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis consectetur,<br> repudiandae libero ratione commodi similique iste, itaque dolorem, odit nisi maxime.</p></div>
+		<div class="block_image"><img class="image" src="img/OK.jpg"></div>
+</div>
+<!-- BLOCK-4 -->
+<div class="BLOCK-3">
+		<div class="block_image"><img class="image" src="img/OK.jpg"></div>
+		<div class="lor"><label class="lor-lorem">Lorem</label><p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis consectetur,<br> repudiandae libero ratione commodi similique iste, itaque dolorem, odit nisi maxime.</p></div>
+		
+</div>
+	<!-- BLOCK-5 -->
+	<div class="BLOCK-3">
+		<div class="lor"><label class="lor-lorem">Lorem</label><p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis consectetur,<br> repudiandae libero ratione commodi similique iste, itaque dolorem, odit nisi maxime.</p></div>
+		<div class="block_image"><img class="image" src="img/OK.jpg"></div>
+</div>
+<div class="DDD"></div>
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</body>
+
+</html>

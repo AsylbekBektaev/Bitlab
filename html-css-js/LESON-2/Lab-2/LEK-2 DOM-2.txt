@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Website</title>
+	
+</head>
+
+
+<body style="font-family:Arial;">
+<div style="display:flex;font-family:Arial;background-color:#990000;color:white;padding:12px;">
+	<div style="display:flex;padding:10px;width:50%;font-size:20px;">
+	    <div style="font-weight:bold;">BBC</div><div style="padding-left:5px;font-weight:bold;">NEWS</div>
+    </div>
+      <div style="display:flex;padding:13px;width:50%;padding-left:50%;">
+        <div style="padding-right:13px;">Politics</div>
+        <div style="padding-right:13px;">Sport</div>
+        <div style="padding-right:13px;">Science</div>
+        <div style="padding-right:13px;">Culture</div>
+        <div style="padding-right:13px;">Response</div>
+        <div style="">Finanse</div>
+        </div>
+
+</div>
+<div style="display:flex;margin-bottom:50px;">
+	<div style="width:60%;"><img src="iii1.png" width="700px" style="border:1px;;margin-left:90px;margin-top:50px;height:250px;border:6px;image-rendering:"></div>
+	<div style="width:40%;"><div style="font-size:40px;margin-top:60px;padding-top:10px;margin-right:90px;margin-left:20px;">Khabib to Conor</div><br><div style="font-size:16px;margin-left:20px;">Khabib Nurmagomedov responded to Conor McGregor`s<br>shock retirement by saying there can be only one king in the<br>jungle</div><br><button style="color:white;background-color:blue;border-color:blue;border-radius:5px;padding:10px;padding-left:15px;padding-right:15px;margin-left:20px;">Read More</button></div></div>
+</div>
+<div style="background-color:grey;padding:25px;">
+	<div style="margin-left:555px;color:white;">Football Transfer News</div>
+</div>
+<div style="display:flex;">
+	<div RAZ style="width:350px;border-style:solid;border-color:black;border:5px;margin:50px;">
+		<div>
+			<div style="font-size:28px;">
+			Juventus Signed De ligt
+		    </div><br><div>De ligt joined to Juventus for 80 milions<br>
+		    euro.</div>
+		</div>
+		<div><button style="color:white;background-color:blue;border-color:blue;border-radius:5px;padding:8px;margin-left:20px;margin:15px;">More Info</button></div>
+	</div>
+	<div RAZ style="width:350px;border-style:solid;border-color:black;border:2px;margin:50px;">
+	<div>
+		<div style="font-size:27px;">
+			Eden Hazard in Real Madrid
+		    </div><br><div>Real Madrid signed Eden Hazard for 100<br>
+		    milions euro.</div>
+		</div>
+		<div><button style="color:white;background-color:blue;border-color:blue;border-radius:5px;padding:8px;margin-left:20px;margin:15px;">More Info</button></div>
+	</div>
+	<div RAZ style="width:350px;border-style:solid;border-color:black;border:5px;margin:50px;">
+		<div>
+		<div style="font-size:28px;">
+			Griezmann joined to Barca
+		    </div><br><div>Barcelona paid to Atletico Madrid 120<br>milions euro</div>
+		</div>
+		<div style="border-style:solid;border-color:black;border:2px;"><button style="margin:15px;color:white;background-color:blue;border-color:blue;border-radius:5px;padding:8px;margin-left:20px;">More Info</button></div>
+	</div>
+
+		
+		</div>
+  </div>
+
+
+
+</body>
+</html>

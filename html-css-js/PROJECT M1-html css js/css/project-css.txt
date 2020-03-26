@@ -1,0 +1,361 @@
+/*LOGIN_FORM*/
+.block{
+	margin:5px 0px 50px 25px;
+	height:310px;
+	width:350px;
+	border-radius:5px;
+	border:solid 1px grey;
+}
+.error{
+	font-size:20px;
+	margin:60px 0px 0px 25px;
+	padding:10px;
+}
+.error_lab{
+	text-align:center;
+	margin-left:25px;
+}
+.lab_log{
+	margin:0px;
+	font-weight:bold;
+	font-size:28px;
+	background-color:#f2f2f2;
+	width: 100%;
+	height:100%;
+	border-radius:5px;
+	padding:5px 0px 5px 15px;
+}
+.block__form{
+	padding:20px 20px 20px 20px;
+	border-top:solid 1px grey;
+}
+.div_email{
+	margin:5px 0px 5px 0px;
+	padding:0px; 
+	font-size:18px;
+}
+
+.text{
+	width:100%;
+	border-radius:6px;
+	border:solid 1px grey;
+	padding:8px;
+	margin:0px;
+}
+.button{
+	margin:15px 0px 10px 0px;
+	padding:5px 12px 5px 12px;
+	border:solid 1px #1a1aff;
+	border-radius:4px;
+	background-color: #1a1aff;
+	color:white;
+}
+/*LOGIN-FORM KONEC*/
+
+/*WEB*/
+/*NAV NASHALO*/
+.nav{
+	background-color:black;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:60px;
+}
+.nav_LOGO{
+	width:50%;
+	flex-direction:column;
+}
+
+.LOGO{
+	color:white;
+	text-decoration: none;
+	margin:0px 0px 0px 160px;
+}
+.LOGO:hover{
+	text-decoration: none;
+	color:white;
+}
+.nav_LINK{
+	display:flex;
+	width:50%;
+	text-decoration:none;
+}
+.link{
+	margin:0px;
+	text-decoration:none;
+	color: #666666;
+	padding:15px;
+}
+.link:hover{
+	text-decoration:none;
+	color:#fff;
+	font-size:22px;
+}
+.link-1{
+	margin:0px 0px 0px 150px;
+	color: #666666;
+	padding:15px;
+	height:100%;
+}
+.link-1:hover{
+	text-decoration:none;
+	color:#808080;
+	color:#fff;
+	font-size:22px;
+}
+/*NAV KONEC*/
+
+/*BLOCK-1  NASHALO*/
+.BLOCK-1{
+	margin:0px 0px 0px 0px;
+	width:100%;
+	background-image:url('../img/les.jpg');
+	background-repeat:no-repeat;
+	background-position:center,center;
+	 image-rendering: optimizeSpeed;
+	 background-size: cover;
+	height:625px;
+}
+.lorem{
+	padding:230px 200px 10px 200px;
+	text-align: center;
+	font-size:35px;
+	color:white;
+	font-weight:bold;
+}
+.span_input{
+	padding:280px 200px 0px 412px;
+}
+.input{
+	width:395px;
+	padding:5px 0px 5px 14px;
+	border:solid grey 1px;
+	border-radius:6px;
+}
+.input-button{
+	margin:5px 100px 0px 10px;
+	width:125px;
+	padding:5px 0px 5px 0px;
+	border:solid #000099 1px;
+	border-radius:6px;
+	color:white;
+	background-color: #000099;
+}
+.input-button:hover{
+	margin:5px 100px 0px 10px;
+	width:125px;
+	padding:5px 0px 5px 0px;
+	border:solid #00b300 1px;
+	border-radius:6px;
+	color:white;
+	background-color: #00b300;
+}
+/*BLOCK-1  KONEC*/
+
+/*BLOCK-2 NASHALO*/
+.BLOCK-2{
+margin:0px 0px 0px 0px;
+	height:575px;
+	width:100%;
+}
+.BLOCK-2_LOGO{
+	color:black;
+	font-weight:bold;
+	font-size:35px;
+	margin:30px 0px 30px 195px;
+}
+.BLOCK-2_blocks{
+	display:flex;
+	height:370px;
+	margin:30px 180px 30px 180px;
+	justify-content:space-between;
+}
+.blocks{
+	border:solid grey 1px;
+	width:280px;
+	margin:0px 20px 0px 20px;
+	border-radius:3px;
+}
+.blocks:hover{
+	transform: scale(1.2,1.3);
+	margin:70px;
+	height:350px;
+	z-index:-1;
+}
+.img-700x400{
+	border-image-repeat:none;
+	width:100%;
+	border-radius:2px;
+}
+.project_one{
+	border-top:solid 1px grey; 
+	padding:10px 0px 10px 10px;
+	font-size:22px;
+	color:blue;
+}
+.project_lorem{
+	text-align:left; 
+	padding:0px 0px 0px 10px;
+}
+
+/*BLOCK-2 KONEC*/
+
+/*BLOCK-3 NASHALO*/
+.BLOCK-3{
+	display:flex;
+}
+.lor{
+	width:50%;
+	text-align:left;
+	height:auto;
+}
+.lor-lorem{
+	padding-top:170px;
+	padding:170px 0px 0px 25px;
+	font-size:35px;
+	font-weight:bold;
+}
+.lorem-text{
+	padding:0px 0px 0px 25px;
+}
+.block_image{
+	width:50%;
+}
+.image{
+	max-width:100%;
+	height:auto;
+	border-image-repeat:none;
+}
+/*BLOCK-3 KONEC*/
+/*WEB KONEC
+
+
+/*BLOG NASHALO*/
+.container-v{
+	display:flex;
+	margin:0px 140px 0px 140px;
+}
+.co1{
+	margin:0px;
+	width:810px;
+	height:800px;
+}
+.title{
+	font-size:40px;
+	font-weight:bold;
+	margin:70px 0px 20px 150px;
+}
+.count-border{
+	border-bottom:solid 1px black;
+}
+/*.blog{
+	border:solid 1px grey;
+	border-radius:5px;
+	margin:2px 0px 10px 0px;
+	height:229px;
+	background-color:#f2f2f2;
+}*/
+/*.blog-2{
+	border:solid 1px grey;
+	border-radius:5px;
+	margin:2px 0px 10px 0px;
+	height:229px;
+	background-color:#f2f2f2;
+}
+*/
+/*.blog-1{
+	border-bottom:solid 1px grey;
+	background-color:white;
+}*/
+.blog-Title{
+	font-size:30px;
+	margin:15px 0px 0px 30px;
+	font-weight:bold;
+}
+.blog-Content{
+	margin:10px 0px 0px 30px;
+	text-align:left;
+}
+
+/*.blog-button{
+	margin:0px 0px 5px 25px;
+	width:109px;
+	padding:7px 0px 7px 0px;
+	border:solid #1a1aff 1px;
+	border-radius:6px;
+	color:white;
+	background-color: #1a1aff;
+}*/
+
+/*.blog-Author{
+	margin:0px;
+	font-weight:450;
+	background-color:#f2f2f2;
+	width: 100%;
+	height:100%;
+	border-radius:5px;
+	padding:16px 0px 16px 30px;
+}*/
+
+.co2{
+	margin:0px;
+	width:400px;
+}
+.blok-1{
+	width:300px;
+	border:solid grey 1px;
+	margin:0px 0px 0px 40px;
+	border-radius:5px;
+}
+.lab_log-1{
+	margin:0px;
+	font-weight:bold;
+	font-size:28px;
+	background-color:#f2f2f2;
+	width: 100%;
+	height:100%;
+	border-radius:5px;
+	padding:5px 0px 5px 15px;
+}
+.block__form-1{
+	padding:20px 20px 20px 20px;
+	border-top:solid 1px grey;
+}
+.div_email-1{
+	margin:5px 0px 5px 0px;
+	padding:0px; 
+	font-size:18px;
+	font-weight:555;
+}
+.text-1{
+	width:100%;
+	border-radius:6px;
+	border:solid 1px grey;
+	padding:8px;
+	margin:0px;
+}
+.text-2{
+	width:100%;
+	border-radius:6px;
+	border:solid 1px grey;
+	padding:8px;
+	margin:0px;
+}
+.button-1{
+	margin:15px 0px 10px 0px;
+	padding:5px 12px 5px 12px;
+	border:solid 1px #1a1aff;
+	border-radius:4px;
+	background-color: #1a1aff;
+	color:white;
+}
+.DDD{
+	background-color:#f2f2f2;
+	width:100%;
+	height:50px;
+	margin:5px 0px 0px 0px;
+	position: absolute;
+}
+/*BLOG KONEC
+

@@ -1,0 +1,473 @@
+body{
+	font-family:Arial;
+}
+a{
+	 !important
+	text-decoration:none;
+}
+.Shapka{
+	background-color:#000080;
+	padding:4px;
+	border:#000080 solid 1px;
+}
+.Facebook{
+	text-decoration:none;
+	color:white;
+}
+.Shapka2{
+	width: 50%;
+	margin-left:800px;
+}
+.Imya a {
+color:white;
+	font-weight:bold;
+	margin-top:4px;
+	text-decoration:none;
+	
+
+}
+.Logout{
+	color:white;
+	font-weight:none;
+
+}
+
+.Logo{
+	font-size:24px;
+	color:white;
+	margin:10px;
+	width:50%;
+}
+.Center{
+	display:flex;
+}
+.left{
+	display:flex;
+	flex-direction:column;
+	margin:20px;
+}
+.feed{
+	padding:10px;
+	border: grey solid 1px;
+	font-weight:bold;
+}
+.feed1{
+	text-decoration:none;
+	color:black;
+}
+.profile{
+padding:10px;
+border: grey solid 1px;
+font-weight:bold;
+}
+.profile1{
+	text-decoration:none;
+	color:black;
+}
+.messages{
+padding:10px;
+border: grey solid 1px;
+font-weight:bold;
+}
+.messages1{
+	text-decoration:none;
+	color:black;
+}
+.groups{
+padding:10px;
+border: grey solid 1px;
+font-weight:bold;
+}
+.groups1{
+	text-decoration:none;
+	color:black;
+}
+.photos{
+padding:10px;
+border: grey solid 1px;
+font-weight:bold;
+}
+.photos1{
+	text-decoration:none;
+	color:black;
+}
+.settings{
+	padding:10px;
+	border: grey solid 1px;
+	font-weight:bold;
+}
+.settings1{
+	text-decoration:none;
+	color:black;
+}
+.blok1{
+	width:1000px;
+	margin:10px;
+	margin-top:20px;
+	margin-bottom:10px;
+	
+	border:solid grey 1px;
+	border-radius:5px;
+	
+}
+.Java{
+	font-size:45px;
+	padding:45px;
+	padding-bottom:0px;
+	
+	
+}
+.There{
+	padding:45px;
+	padding-bottom:18px;
+	padding-top:0px;
+	border-bottom:grey solid 1px;
+}
+.blok1-1{
+	padding:45px;
+	padding-bottom:0px;
+	padding-top:15px;
+
+}
+.Eldar{
+font-weight:bold;
+
+}
+.button{
+padding:5px;
+background-color:green;
+border:green solid 1px;
+margin-bottom:20px;
+margin-top:20px;
+}
+.blok2{
+	margin:10px;
+	margin-top:20px;
+	margin-bottom:10px;
+		border:solid grey 1px;
+	border-radius:5px;
+	
+
+}
+.istarted{
+   font-size:45px;
+	padding:45px;
+	padding-bottom:0px;
+}
+.for{
+	padding:45px;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+
+.blok2-2{
+padding:45px;
+	padding-bottom:0px;
+	padding-top:15px;
+}
+.Aziza{
+font-weight:bold;
+}
+.button2{
+padding:5px;
+background-color:green;
+border:green solid 1px;
+margin-bottom:20px;
+margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.BLOKI{
+	margin:20px;
+	display:flex;
+	flex-direction:column;
+}
+
+.blok111{
+	display:flex;
+}
+.blok222{
+	display:flex;
+	margin-top: 25px;
+}
+.blok333{
+		display:flex;
+	margin-top: 25px;
+    margin-bottom:40px;
+}
+.blok-11{
+	border:black solid 1px;
+	margin-right:30px;
+}
+.blok-12{
+border:black solid 1px;
+	margin-right:30px;
+}
+.blok-13{
+	border:black solid 1px;
+	margin-right:30px;
+}
+.foto{
+	border-bottom:solid black 1px;
+	border-bottom:0px;
+}
+
+.label{
+padding:20px;
+margin-top:10px;
+border:solid black 1px;
+	margin-top:-4px;
+	border-right:none;
+	border-left:none;
+	border-bottom:none;
+}
+
+.Konec{
+background-color: #4d4d4d;
+padding-top:15px;
+padding-bottom:15px;
+}
+.konecslovo{
+     color:white;
+     margin-left:555px;
+}
+
+
+
+
+
+
+.TABLE{
+margin:20px;
+padding-left:250px;
+margin-left:10px;
+}
+.ttt{
+width: 600px;
+height: 400px;
+}
+.tr{
+
+}
+.td1{
+
+}
+.td2{
+
+}
+.input{
+  padding:8px;
+  width:350px;
+  border:solid grey 1px;
+	border-radius:5px;
+}
+.pas{
+padding:8px;
+width:350px;
+border:solid grey 1px;
+	border-radius:5px;
+}
+.sel{
+padding:8px;
+width:370px;
+border:solid grey 1px;
+	border-radius:5px;
+}
+.num{
+padding:8px;
+width:350px;
+border:solid grey 1px;
+	border-radius:5px;
+}
+.but22{
+margin-top:10px;
+margin-left:400px;
+color:white;
+background-color:#1a75ff;
+border:solid #1a75ff 1px;
+border-radius:5px;
+padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pravayastorona{
+ margin-top: 20px;
+
+
+}
+.TABLE2{
+margin-top:20px;
+}
+.ttt2{
+	width: 1000px;
+}
+.ttt3{
+margin-top:10px;
+}
+.text{
+	width:970px;
+	height: 150px;
+	border:solid grey 1px;
+	border-radius:5px;
+}
+.text1{
+ padding:8px;
+  width:880px;
+  border:solid grey 1px;
+	border-radius:5px;
+	font-size:20px;
+
+}
+.buttt{
+	margin-left:855px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:8px;
+	color:white;
+	background-color:green;
+	border:green solid 1px;
+	border-radius:8px;
+}
+
+.blokk1{
+	
+    border:black solid 1px;
+	width:975px;
+}
+.blokk2{
+	border:black solid 1px;
+	width:975px;
+
+	
+}
+.blokk3{
+	border:black solid 1px;
+	border-top:none;
+	width:975px;
+	margin-bottom: 30px;
+}
+.melki{
+margin-left:900px;
+font-size:10px;
+padding-top: 8px;
+}
+.slovo{
+font-size:23px;
+padding:8px;
+}
+.slovo2{
+	font-size:13px;
+padding:8px;
+padding-top:0px;
+}
+.but33{
+   color:red;
+   padding:8px;
+   padding-top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+.prava{
+	margin:20px;
+}
+.BBB1{
+	display:flex;
+}
+.BBB2{
+	display:flex;
+	margin-top:15px;
+}
+.r2-b1{
+	border:solid black 1px;
+	margin-right:40px;
+}
+.r2-b2{
+	border:solid black 1px;
+}
+.r1-b1{
+	border:solid black 1px;
+	margin-right:40px;
+}
+.r1-b2{
+	border:solid black 1px;
+}
+.b1-1{}
+.f{
+	width:430px;
+}
+.b1-2{
+	
+	margin-bottom:13px;
+}
+.REAL{
+	font-size:20px;
+	padding:13px;
+	padding-bottom:6px;
+}
+.OFFI{
+	padding:13px;
+	padding-bottom:15px;
+}
+.btb{ 
+}
+.b1{
+	margin-left:13px;
+	margin-right:8px;
+    background-color:blue;
+    color:white;
+    padding:10px;
+    border:solid blue 1px;
+    border-radius:5px;
+}
+.b2{
+	background-color:red;
+	color:white;
+	padding:10px;
+    border:solid red 1px;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
