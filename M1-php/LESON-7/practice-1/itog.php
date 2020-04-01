@@ -9,8 +9,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-<div class="container">
-	<table class="table">
+
+<div class="container pt-3">
+<table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -19,26 +20,40 @@
       <th scope="col">Team city</th>
     </tr>
   </thead>
-  	<?php  
-  	try{
-	$conn = new PDO('mysql:host=localhost;dbname=bitlab','root','');
-	 $sql = "SELECT '#',Team name,Team country,Team city FROM footbal";
-      $VVV=$conn->query($sql);
-		foreach($VVV as $user){
+  <tbody>
+      <?php
+    try {
+          $conn = new PDO('mysql:host=localhost;dbname=bitlab', 'root', '');
+
+        $sql = "SELECT `#`,`Team name`, `Team country`, `Team city` FROM `footbal`";
+
+        $query = $conn->prepare($sql);
+        $query->execute();
+        $result = $query->fetchAll();
+
+        foreach($result as $user){
+          ?>
+<tr>
+      <td>
+    <?php echo $user['#'];?>
+      </td>
+      <td>
+        <?php echo $user['Team name'];?>
+      </td>
+      <td>
+          <?php  echo $user['Team country'];?>
+      </td>
+      <td>
+        <?php   echo $user['Team city'];?>
+        </td>
+</tr> 
+<?php      
+ }
+ }catch (PDOException $e) {
+   echo "Error!: " . $e->getMessage() . "<br/>";
+  }
 ?>
- 	<tr>
-      <th scope="row"><?php  $user['#'];?></th>
-      <td><?php echo $user['Team name'];?></td>
-      <td><?php echo $user['Team country'];?></td>
-      <td><?php echo $user['Team city'];?></td>
-    </tr>
-<?php
-      }
-	}catch(PDOException $e){
-	echo $e->getMessage().'<br>';
-   	}
-  	?>
-  </tbody>
+</tbody>
 </table>
 </div>
 </body>
