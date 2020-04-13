@@ -1,0 +1,73 @@
+.class_a{
+	margin-left:10px;
+}
+.div_class{
+	margin-left:240px; 
+}
+.type{
+	padding:10px 8px 5px 8px;
+}
+.profile_img{
+	width:220px;
+	height:220px;
+	margin:10px 30px 0px 130px;
+	box-sizing: border-box; 
+	position:relative;
+	top:0px;
+}
+.iii{
+	width:220px;
+	height:220px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+}
+.Profile_info{
+	width:80%;
+	height:220px;
+	background-color:red;
+	margin:10px 30px 0px 30px;
+	box-sizing: border-box; 
+	position:relative;
+	top:0px;
+}
+.profexit{
+	text-decoration: none;
+	text-decoration-style:none;
+	margin-right:0px;
+	padding-right:0px;
+	font-size:20px; 
+}
+.profexit:hover{
+	text-decoration: none;
+	text-decoration-style:none;
+	margin-right:0px;
+	padding-right:0px;
+	font-size:20px; 
+	color:green;
+	height:22px;
+}
+.item{
+	position:fixed;
+	left:0px;
+	top:10px;
+	list-style-type:none;
+	z-index:5;
+}
+.item_a{
+	text-decoration: none;
+	text-decoration-style:none;
+	font-size:20px; 
+}
+.item_a:hover{
+	text-decoration: none;
+	text-decoration-style:none;
+	font-size:20px; 
+	color:green;
+}
+.jumbo-block {
+	padding-left:100px;
+}
+
