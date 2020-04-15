@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	if(isset($_SESSION['login']) && isset($_SESSION['password'])){
+	if(isset($_SESSION['login']) ){
 try{
 	
 $conn=new PDO('mysql:host=localhost;dbname=bitlab', 'root', '');

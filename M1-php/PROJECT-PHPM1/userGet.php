@@ -14,7 +14,6 @@ if(isset($_POST['login']) && ! empty($_POST['login']) && isset($_POST['password'
     		$bool=false;
       $_SESSION['id']=$user['id'];
       $_SESSION['login']=$_POST['login'];
-      $_SESSION['password']=$_POST['password'];
     		header('Location:profiluser.php');
        	}
     }

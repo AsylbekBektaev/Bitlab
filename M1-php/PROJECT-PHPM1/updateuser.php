@@ -21,17 +21,17 @@
 </head>
 <body>
 	<div class="container d-flex justify-content-center">
-		<form action="up.php" method="get" class="w-50 mt-5">
+		<form action="up.php" method="post" class="w-50 mt-5">
 			<input type="hidden" name="id" value="<?php echo $result['id'];?>">
 		  <div class="form-group">
 		    <label class="text-">Имя:</label>
-		    <input type="text" class="form-control" name="name" value="<?php if(isset($_SESSION['login']) && isset($_SESSION['password'])){
+		    <input type="text" class="form-control" name="name" value="<?php if(isset($_SESSION['login'])){
 		    	echo $result['name'];
 		    }?>">
 		  </div>
 		  <div class="form-group">
 		    <label>Фамилия:</label>
-		    <input type="text" class="form-control" placeholder="Введите Фамилию" name="surname" value="<?php if(isset($_SESSION['login']) && isset($_SESSION['password'])){
+		    <input type="text" class="form-control" placeholder="Введите Фамилию" name="surname" value="<?php if(isset($_SESSION['login'])){
 		    	echo $result['surname'];
 		    }?>">
 		  </div>
@@ -56,7 +56,7 @@
 		 $result = $query->fetchall();
 			 	foreach ($result as  $name) {
 				    ?>
-				 <option value="<?php if(isset($_SESSION['login']) && isset($_SESSION['password'])){
+				 <option value="<?php if(isset($_SESSION['login']) ){
 		    	echo $name['id'];
 		    }?>"><?php echo $name['name'];?></option>
 		<?php
@@ -79,7 +79,7 @@
 		 $city = $query->fetchall();
 			 	foreach ($city as  $city) {
 				    ?>
-				 <option value="<?php if(isset($_SESSION['login']) && isset($_SESSION['password'])){
+				 <option value="<?php if(isset($_SESSION['login']) ){
 		    	echo $city['id'];
 		    }?>"><?php echo $city['name'];?></option>
 		<?php

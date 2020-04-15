@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(isset($_GET['id']) && !empty($_GET['id'])  && isset($_SESSION['id']) && isset($_SESSION['login']) && isset($_SESSION['password'])){
+if(isset($_GET['id']) && !empty($_GET['id'])  && isset($_SESSION['id']) && isset($_SESSION['login'])){
 
  try {
 

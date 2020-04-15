@@ -9,7 +9,7 @@
 	<?php 
 session_start();
 
-	if(isset($_GET['id']) && !empty($_GET['id']) && isset($_SESSION['id']) && isset($_SESSION['login']) && isset($_SESSION['password'])){
+	if(isset($_GET['id']) && !empty($_GET['id']) && isset($_SESSION['id']) && isset($_SESSION['login'])){
 			try{
 		
 			$conn=new PDO('mysql:host=localhost;dbname=bitlab', 'root', '');
@@ -22,7 +22,7 @@ session_start();
 			 
 			    $twit = $query->fetch();
 			   
-			    print_r($twit);
+			   
 
 		?>
 		<h1>Редактировать твит</h1>
